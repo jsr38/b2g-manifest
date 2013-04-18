@@ -120,7 +120,9 @@
   <project path="sdk" name="platform/sdk" revision="0d8f973905a4925e00eb9e32887c192b2148b29f" />
 
   <!-- TI AM335x specific things -->
+  <project name="u-boot" remote="rowboat" revision="518a597ca43de7c2d0fa7868a135030ad2310042"/>
   <project name="vendor-ti-am335xevm" path="device/ti/am335xevm" remote="rowboat" revision="3877feff76be0642b1e9913d4e4f47cf9b07b3f1"/>
+  <project path="device/ti/am335xevm_sk" name="vendor-ti-am335xevm_sk" remote="rowboat"/>
 
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="60dfeb6e4448bfed707946ebca6612980f525e69" />
