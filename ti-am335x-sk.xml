@@ -13,6 +13,8 @@
 	  fetch="git://github.com/mozilla/" />
   <remote name="mozillaorg" 
       fetch="https://git.mozilla.org/releases" />
+  <remote name="jsr38" 
+      fetch="https://github.com/jsr38" />
   <default revision="refs/tags/android-4.0.4_r2.1"
            remote="caf"
            sync-j="4" />
@@ -113,7 +115,7 @@
   <project path="sdk" name="platform/sdk" revision="0d8f973905a4925e00eb9e32887c192b2148b29f" />
 
   <!-- TI AM335x specific things -->
-  <project path="device/ti/panda" name="android-device-panda" remote="b2g" revision="master" />
+  <project path="device/ti/am335x-sk" name="android-device-am335x-sk" remote="jsr38" revision="master" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="60dfeb6e4448bfed707946ebca6612980f525e69" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="3ece7d9e08052989401e008bc397dbcd2557cfd0" />
