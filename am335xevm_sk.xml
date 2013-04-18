@@ -34,6 +34,9 @@
   <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
   <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
 
+  <!-- Android dependencies  -->
+  <project name="external-svox" path="external/svox" remote="rowboat" revision="145233c9792dfe1d24918bb8fb1a2bbc16138c03"/>
+
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
