@@ -17,9 +17,8 @@
       fetch="https://github.com/jsr38" />
   <remote name="rowboat" 
       fetch="git://gitorious.org/rowboat" />
-  <default revision="refs/tags/android-4.0.4_r2.1"
-           remote="caf"
-           sync-j="4" />
+
+  <default remote="rowboat" revision="rowboat-jb" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
   <project path="build" name="build" remote="rowboat" revision="master">
@@ -121,13 +120,21 @@
 
   <!-- TI AM335x specific things -->
   <project name="u-boot" remote="rowboat" revision="518a597ca43de7c2d0fa7868a135030ad2310042"/>
-  <project name="vendor-ti-am335xevm" path="device/ti/am335xevm" remote="rowboat" revision="3877feff76be0642b1e9913d4e4f47cf9b07b3f1"/>
-  <project path="device/ti/am335xevm_sk" name="vendor-ti-am335xevm_sk" remote="rowboat"/>
+  <project path="device/ti/am335xevm_sk" name="vendor-ti-am335xevm_sk" remote="rowboat" revision="master" />
 
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="60dfeb6e4448bfed707946ebca6612980f525e69" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="3ece7d9e08052989401e008bc397dbcd2557cfd0" />
   <project path="external/negatus" name="Negatus" remote="mozilla" revision="master" />
   <project path="external/orangutan" name="orangutan" remote="b2g" revision="master" />
+
+
+  <project name="hardware-libhardware" path="hardware/libhardware" revision="e1f1a6ccfd612fea2f6525ae0d70a1789de09906" upstream="refs/tags/rowboat-jb-4.1.2"/>
+  <project name="hardware-libhardware_legacy" path="hardware/libhardware_legacy" revision="ce0e9975341686f9371cb7029e8ca04b03d69bce" upstream="refs/tags/rowboat-jb-4.1.2"/>
+  <project name="hardware-ril" path="hardware/ril" revision="5b16efdeca04c524df241af9315c8ec3bf774491" upstream="refs/tags/rowboat-jb-4.1.2"/>
+  <project name="hardware-ti-omap3" path="hardware/ti/omap3" revision="7b6db4889541eabe735f11a70033a7a338335814" upstream="refs/tags/rowboat-jb-4.1.2"/>
+  <project name="hardware-ti-sgx" path="hardware/ti/sgx" revision="8833e6c4bf2a68aaf594ccfe0985e69ff0fa47c1" upstream="refs/tags/rowboat-jb-4.1.2"/>
+  <project name="hardware-ti-wlan" path="hardware/ti/wlan" revision="1f557273bea9cb7a191c5827147993bca64d79e2" upstream="refs/tags/rowboat-jb-4.1.2"/>
+  <project name="hardware-ti-wpan" path="hardware/ti/wpan" revision="9930229c045da24b7b7cf39c8a5a4851c0f858a6" upstream="refs/tags/rowboat-jb-4.1.2"/>
+  <project name="kernel" revision="996686459db1181a5deaf5d493681ecb5bf43ad7" upstream="refs/tags/rowboat-jb-am335x-4.1.2"/>
 
 </manifest>
