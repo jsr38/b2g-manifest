@@ -15,8 +15,11 @@
       fetch="https://git.mozilla.org/releases" />
   <remote name="jsr38" 
       fetch="https://github.com/jsr38" />
+  <remote name="jsr38-gitorious" 
+      fetch="https://gitorious.org/~jsr38/rowboat" />
   <remote name="rowboat" 
       fetch="git://gitorious.org/rowboat" />
+
 
   <default remote="rowboat" revision="rowboat-jb" sync-j="4"/>
 
@@ -122,7 +125,10 @@
 
   <!-- TI AM335x specific things -->
 <!--  <project name="u-boot" remote="rowboat" revision="518a597ca43de7c2d0fa7868a135030ad2310042"/>  from DevKit 3.0.1 --> 
-  <project path="device/ti/am335xevm_sk" name="vendor-ti-am335xevm_sk" remote="rowboat" revision="master" />
+
+  <project path="device/ti/am335xevm_sk" name="jsr38s-vendor-ti-am335xevm_sk" remote="rowboat" revision="master" />
+
+<!--  <project path="device/ti/am335xevm_sk" name="vendor-ti-am335xevm_sk" remote="rowboat" revision="master" />  -->
 <!--
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="60dfeb6e4448bfed707946ebca6612980f525e69" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="3ece7d9e08052989401e008bc397dbcd2557cfd0" />
