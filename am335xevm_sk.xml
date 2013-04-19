@@ -90,7 +90,7 @@
   <project path="external/webp" name="external-webp" />
   <project path="external/webrtc" name="external-webrtc" />
   <project path="external/wpa_supplicant" name="external-wpa_supplicant" revision="master" />
-  <project path="external/wpa_supplicant_8" name="external-wpa_supplicant_8" revision="master" />
+  <project path="external/wpa_supplicant_8" name="external-wpa_supplicant_8" />
   <project path="external/zlib" name="external-zlib" />
   <project path="external/yaffs2" name="external-yaffs2" />
   <project path="frameworks/base" name="frameworks-base" revision="612ca9c6a55bd932c45f5b85ae932a1b712dd914" />
