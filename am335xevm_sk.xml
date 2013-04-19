@@ -21,7 +21,7 @@
   <default remote="rowboat" revision="rowboat-jb" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
-  <project path="build" name="build" remote="rowboat" revision="master">
+  <project path="build" name="build" remote="rowboat" revision="rowboat-jb">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
