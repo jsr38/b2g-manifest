@@ -100,7 +100,7 @@
   <project path="hardware/libhardware_legacy" name="hardware-libhardware_legacy" revision="af9565aa8be0136463ec549d9d3abdd906d2c390" />
   <project path="libcore" name="libcore" />
   <project path="ndk" name="prebuilts-ndk" />
-  <project path="prebuilt" name="prebuilts-misc" revision="master" />
+  <project path="prebuilt" name="prebuilts-misc" />
   <project path="system/bluetooth" name="system-bluetooth" />
   <project path="system/core" name="system-core" revision="91e5551f88aea5aa64e1b4f8b4b52d7be2b28b64" />
   <project path="system/extras" name="system-extras" />
