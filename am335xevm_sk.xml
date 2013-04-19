@@ -134,8 +134,10 @@
   <project name="kernel" path="kernel" revision="rowboat-am335x-kernel-3.2" />
   <project name="u-boot" path="u-boot" revision="am335x-v2012.10" />
 
+<!--
   <project name="hardware-libhardware" path="hardware/libhardware"/>
   <project name="hardware-libhardware_legacy" path="hardware/libhardware_legacy"/>
+-->
   <project name="hardware-ril" path="hardware/ril"/>
   <project name="hardware-ti-omap3" path="hardware/ti/omap3"/>
   <project name="hardware-ti-sgx" path="hardware/ti/sgx" revision="ti_sgx_sdk-ddk_1.10"/>
