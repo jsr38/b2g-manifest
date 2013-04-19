@@ -66,7 +66,7 @@
   <project path="external/icu4c" name="external-icu4c" revision="0fa67b93b831c6636ca18b152a1b1b14cc99b034" />
   <project path="external/iptables" name="external-iptables" />
   <project path="external/jpeg" name="external-jpeg" />
-  <project path="external/libgsm" name="platform/external-libgsm" />
+  <project path="external/libgsm" name="external-libgsm" />
   <project path="external/liblzf" name="external-liblzf" />
   <project path="external/libnfc-nxp" name="external-libnfc-nxp" />
   <project path="external/libnl-headers" name="external-libnl-headers" />
