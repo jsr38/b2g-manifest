@@ -20,24 +20,20 @@
   <remote name="rowboat" 
       fetch="git://gitorious.org/rowboat" />
 
-
   <default remote="rowboat" revision="rowboat-jb" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
   <project path="build" name="build" remote="rowboat" revision="rowboat-jb">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="master" />
-  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="master" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="master"/>
-  <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
-  <project path="external/moztt" name="moztt" remote="b2g" revision="master" />
-
-  <!-- Android dependencies  -->
-  <project name="external-svox" path="external/svox" remote="rowboat" revision="145233c9792dfe1d24918bb8fb1a2bbc16138c03"/>
+  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="v1.0.1" />
+  <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1.0.1" />
+  <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.0.1" />
+  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="v1.0.1" />
+  <project path="rilproxy" name="rilproxy" remote="b2g" revision="v1.0.1" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="v1.0.1"/>
+  <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="v1.0.1"/>
+  <project path="external/moztt" name="moztt" remote="b2g" revision="v1.0.1" />
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="abi-cpp" />
@@ -85,8 +81,11 @@
   <project path="external/sonivox" name="external-sonivox" />
   <project path="external/speex" name="external-speex" />
   <project path="external/sqlite" name="external-sqlite" />
+  <project path="external/svox" name="external-svox" remote="rowboat" revision="145233c9792d
   <project path="external/stlport" name="external-stlport" />
   <project path="external/strace" name="external-strace" />
+  <project path="external/svox" name="external-svox" remote="rowboat" revision="145233c9792dfe1d24918bb8fb1a2bbc16138c03"/>
+
   <project path="external/tagsoup" name="external-tagsoup" />
   <project path="external/tinyalsa" name="external-tinyalsa" />
   <project path="external/tremolo" name="external-tremolo" />
@@ -126,7 +125,7 @@
   <!-- TI AM335x specific things -->
 <!--  <project name="u-boot" remote="rowboat" revision="518a597ca43de7c2d0fa7868a135030ad2310042"/>  from DevKit 3.0.1 --> 
 
-  <project path="device/ti/am335xevm_sk" name="jsr38s-vendor-ti-am335xevm_sk" remote="jsr38-gitorious" revision="master" />
+  <project path="device/ti/am335xevm_sk" name="jsr38s-vendor-ti-am335xevm_sk" remote="jsr38-gitorious" />
 
 <!--  <project path="device/ti/am335xevm_sk" name="vendor-ti-am335xevm_sk" remote="rowboat" revision="master" />  -->
 <!--
