@@ -23,9 +23,14 @@
   <default remote="rowboat" revision="rowboat-jb" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
+  <project path="build" name="platform_build" remote="b2g" revision="master">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+<!--
   <project path="build" name="build" remote="rowboat" revision="rowboat-jb">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+-->
   <project path="dalvik" name="fake-dalvik" remote="b2g" revision="v1-train" />
   <project path="gaia" name="gaia.git" remote="mozillaorg" revision="v1-train" />
   <project path="gecko" name="gecko.git" remote="mozillaorg" revision="v1.0.1" />
