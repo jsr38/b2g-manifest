@@ -42,8 +42,13 @@
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="abi-cpp" />
+
+<!--
   <project path="bionic" name="bionic" />
   <project path="bootable/recovery" name="bootable-recovery" />
+-->
+  <project path="bionic" name="platform/bionic" remote="caf" revision="aosp-new/ics-plus-aosp" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" remote="caf" revision="refs/tags/android-4.0.4_r2.1" />
 
   <project path="device/common" name="device/common" remote="caf" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/sample" name="device/sample" remote="caf" revision="refs/tags/android-4.0.4_r2.1" />
