@@ -57,7 +57,7 @@
   <project path="external/bluetooth/bluez" name="external-bluetooth-bluez" />
   <project path="external/bluetooth/glib" name="external-bluetooth-glib" />
   <project path="external/bluetooth/hcidump" name="external-bluetooth-hcidump" />
-  <project path="external/bsdiff" name="external-bsdiff" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" remote="caf" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/bzip2" name="external-bzip2" />
   <project path="external/dbus" name="external-dbus" />
   <project path="external/dhcpcd" name="external-dhcpcd" />
