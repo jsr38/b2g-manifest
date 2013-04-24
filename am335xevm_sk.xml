@@ -157,8 +157,8 @@
   <project name="hardware-ril" path="hardware/ril" remote="rowboat" revision="rowboat-jb" />
   <project name="hardware-ti-omap3" path="hardware/ti/omap3" remote="rowboat" revision="rowboat-jb" />
   <project name="hardware-ti-sgx" path="hardware/ti/sgx" revision="ti_sgx_sdk-ddk_1.10" remote="rowboat" />
-  <project name="hardware-ti-wlan" path="hardware/ti/wlan" remote="rowboat" revision="rowboat-jb" />
-  <project name="hardware-ti-wpan" path="hardware/ti/wpan" remote="rowboat" revision="rowboat-jb" />
+<!--  <project name="hardware-ti-wlan" path="hardware/ti/wlan" remote="rowboat" revision="1f557273bea9cb7a191c5827147993bca64d79e2" />  -->
+<!--  <project name="hardware-ti-wpan" path="hardware/ti/wpan" remote="rowboat" revision="9930229c045da24b7b7cf39c8a5a4851c0f858a6" />  -->
 
 <!--
   <project name="hardware-libhardware" path="hardware/libhardware" revision="e1f1a6ccfd612fea2f6525ae0d70a1789de09906" upstream="refs/tags/rowboat-jb-4.1.2"/>
