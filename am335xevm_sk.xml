@@ -30,7 +30,7 @@
   <default remote="caf" revision="rowboat-jb" sync-j="4"/>
 -->
   <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="master">
+  <project path="build" name="platform_build" remote="b2g" revision="v1-train">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 <!--
@@ -101,8 +101,8 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-<!--  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" /> -->
-<!--  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="6dd24fc3792d71edccef9b09140f9a44b063a553" /> -->
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="6dd24fc3792d71edccef9b09140f9a44b063a553" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="frameworks/base" name="platform/frameworks/base" />
@@ -139,12 +139,14 @@
   <project path="device/ti/am335xevm_sk" name="rowboat/jsr38s-vendor-ti-am335xevm_sk" remote="jsr38-gitorious" revision="master" />
 
 <!--  <project path="device/ti/am335xevm_sk" name="vendor-ti-am335xevm_sk" remote="rowboat" revision="master" />  -->
-<!--
+
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="60dfeb6e4448bfed707946ebca6612980f525e69" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="3ece7d9e08052989401e008bc397dbcd2557cfd0" />
--->
+
+
   <project path="external/negatus" name="Negatus" remote="mozilla" revision="master" />
   <project path="external/orangutan" name="orangutan" remote="b2g" revision="master" />
+
 
   <!-- Bootloaders and kernel sources for AM335x-based devices -->
   <project name="kernel" path="kernel" revision="rowboat-am335x-kernel-3.2" remote="rowboat" />
@@ -154,8 +156,8 @@
   <project name="hardware-libhardware" path="hardware/libhardware"/>
   <project name="hardware-libhardware_legacy" path="hardware/libhardware_legacy"/>
 -->
-  <project name="hardware-ril" path="hardware/ril" remote="rowboat" revision="rowboat-jb" />
-  <project name="hardware-ti-omap3" path="hardware/ti/omap3" remote="rowboat" revision="rowboat-jb" />
+  <project name="hardware-ril" path="hardware/ril" remote="rowboat" revision="rowboat-ics" />
+  <project name="hardware-ti-omap3" path="hardware/ti/omap3" remote="rowboat" revision="rowboat-ics" />
   <project name="hardware-ti-sgx" path="hardware/ti/sgx" revision="ti_sgx_sdk-ddk_1.10" remote="rowboat" />
 <!--  <project name="hardware-ti-wlan" path="hardware/ti/wlan" remote="rowboat" revision="1f557273bea9cb7a191c5827147993bca64d79e2" />  -->
 <!--  <project name="hardware-ti-wpan" path="hardware/ti/wpan" remote="rowboat" revision="9930229c045da24b7b7cf39c8a5a4851c0f858a6" />  -->
