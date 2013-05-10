@@ -50,7 +50,14 @@
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
+
   <project path="bionic" name="platform/bionic" revision="aosp-new/ics-plus-aosp" />
+
+<!-- try to match pre-compiled gralloc.ompa3.so  -->
+<!--
+  <project path="bionic" name="bionic" remote="rowboat" revision="d322037e99d7fb8451705bb87f7d20bf6592862f" />
+-->
+
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="device/common" name="device/common" />
   <project path="device/sample" name="device/sample" />
@@ -108,8 +115,10 @@
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/support" name="platform/frameworks/support" />
+<!--
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
+-->
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
@@ -152,8 +161,11 @@
   <project name="hardware-libhardware" path="hardware/libhardware"/>
   <project name="hardware-libhardware_legacy" path="hardware/libhardware_legacy"/>
 -->
+  <project name="hardware-libhardware" path="hardware/libhardware" remote="rowboat" revision="f4fdaebcf361d7cf15d41dc4d994aedf4c42432e"/>
+  <project name="hardware-libhardware_legacy" path="hardware/libhardware_legacy" remote="rowboat" revision="153d0f1a27e0a157cabb6ca9d0d88248630f5695"/>
+
   <project name="hardware-ril" path="hardware/ril" remote="rowboat" revision="rowboat-ics" />
-  <project name="hardware-ti-omap3" path="hardware/ti/omap3" remote="rowboat" revision="rowboat-ics" />
+  <project name="hardware-ti-omap3" path="hardware/ti/omap3" remote="rowboat" revision="aefe7039f7a5d57e64a707c196b8738766c8f97e" />
 <!-- this is for JB ...? -->
 <!--  <project name="hardware-ti-sgx" path="hardware/ti/sgx" revision="ti_sgx_sdk-ddk_1.10" remote="rowboat" /> -->
   <project name="hardware-ti-sgx" path="hardware/ti/sgx" revision="30ccc340030ef2f46cfd0a69fb0ac6106cbf4634" remote="rowboat" />
