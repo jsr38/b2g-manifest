@@ -7,6 +7,14 @@
   <remote name="caf" fetch="git://codeaurora.org/"/>
   <remote name="mozilla" fetch="git://github.com/mozilla/"/>
   <remote name="mozillaorg" fetch="https://git.mozilla.org/releases"/>
+
+  <remote name="jsr38" 
+      fetch="https://github.com/jsr38" />
+  <remote name="jsr38-gitorious" 
+      fetch="git://gitorious.org/~jsr38" />
+  <remote name="rowboat" 
+      fetch="git://gitorious.org/rowboat" />
+
   <default revision="refs/tags/android-4.0.4_r2.1" remote="caf" sync-j="4"/>
 
   <!-- Gonk specific things and forks -->
